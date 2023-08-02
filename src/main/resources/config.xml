@@ -3,21 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean class="org.example.Student" name="std">
-    <property name="id">
-        <value>
-            3825
-        </value>
-    </property>
-    <property name="name">
-        <value>
-            Manoj Singh Rana
-        </value>
-    </property>
-    <property name="city">
-        <value>
-            Bengaluru
-        </value>
-    </property>
-</bean>
+    <bean class="org.example.Student" name="std">
+        <property name="id">
+            <value>
+                3825
+            </value>
+        </property>
+        <property name="name">
+            <value>
+                Manoj Singh Rana
+            </value>
+        </property>
+        <property name="city">
+            <value>
+                Bengaluru
+            </value>
+        </property>
+    </bean>
 </beans>

@@ -1,12 +1,12 @@
 package org.example;
 
 public class Student extends App{
-    private int id;
+    private int ID;
     private String name;
     private String city;
 
-    public void setId(int id){
-        this.id = id;
+    public void setId(int ID){
+        this.ID = ID;
     }
     public void setName(String name){
         this.name = name;
@@ -16,7 +16,7 @@ public class Student extends App{
     }
 
     public int getId(){
-        return this.id;
+        return this.ID;
     }
     public String getName(){
         return this.name;
@@ -27,14 +27,14 @@ public class Student extends App{
     public Student(){
         super();
     }
-    public Student(int id, String name, String city){
+    public Student(int ID, String name, String city){
         super();
-        this.id = id;
+        this.ID = ID;
         this.city = city;
         this.name = name;
     }
     public void getDetails(){
-        System.out.println(this.id);
+        System.out.println(this.ID);
         System.out.println(this.name);
         System.out.println(this.city);
     }
